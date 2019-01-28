@@ -1,0 +1,1 @@
+电动手敲琴代码，直接从esp-idf example中的gatt_server_service_table修改过来，
