@@ -1,0 +1,20 @@
+task buildJar(dependsOn: ['compileReleaseJavaWithJavac'], type: Jar) {
+
+    appendix = "BLE"
+    baseName = "baseble"
+    version = "1.0.5"
+    classifier = "release"
+
+    extension = "jar"
+    archiveName = "baseble.jar"
+
+    def srcClassDir = [project.buildDir.absolutePath + "/intermediates/classes/release"];
+    from srcClassDir
+
+    exclude "com/vise/baseble/BuildConfig.class"
+    exclude "com/vise/baseble/BuildConfig\$*.class"
+    exclude "**/R.class"
+    exclude "**/R\$*.class"
+
+    include "com/vise/baseble/**/*.class"
+}

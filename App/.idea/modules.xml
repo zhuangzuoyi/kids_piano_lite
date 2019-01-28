@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/App_4_Kids_piano_lite.iml" filepath="$PROJECT_DIR$/App_4_Kids_piano_lite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseble/baseble.iml" filepath="$PROJECT_DIR$/baseble/baseble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newapp/newapp.iml" filepath="$PROJECT_DIR$/newapp/newapp.iml" />
+    </modules>
+  </component>
+</project>
